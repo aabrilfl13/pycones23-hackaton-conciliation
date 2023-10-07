@@ -1,0 +1,13 @@
+{
+  "[python]": {
+    "editor.formatOnPaste": false,
+    "editor.formatOnSaveMode": "file",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    },
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+  "python.formatting.provider": "none",
+  "python.linting.flake8Args": ["--config=setup.cfg"]
+}
